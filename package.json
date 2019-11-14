@@ -1,0 +1,14 @@
+{
+  "name": "villamaria",
+  "version": "1.0.0",
+  "scripts": {
+    "scss": "node-sass --watch assets/sass -o assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git@github.com/fienen/villamaria.git"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
