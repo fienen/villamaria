@@ -1,12 +1,10 @@
-.test {}
-
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import 'libs/vendor';
+@import 'vendor/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import url("font-awesome.min.css");
+@import 'vendor/fontawesome';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
 /*
@@ -16,7 +14,6 @@
 */
 
 // Breakpoints.
-
 	@include breakpoints((
 		wide:      ( 1281px,  1680px ),
 		normal:    ( 981px,   1280px ),

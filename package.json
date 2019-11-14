@@ -2,7 +2,8 @@
   "name": "villamaria",
   "version": "1.0.0",
   "scripts": {
-    "scss": "node-sass --watch assets/sass -o assets/css"
+    "build": "node-sass assets/sass/styles.scss -o assets/css",
+    "watch": "node-sass --watch assets/sass/styles.scss -o assets/css"
   },
   "repository": {
     "type": "git",
