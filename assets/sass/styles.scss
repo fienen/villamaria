@@ -1068,7 +1068,8 @@
 			color: _palette(accent1, fg-bold);
 		}
 
-		header {
+		header,
+		.header {
 			p {
 				color: _palette(accent1, fg-light);
 			}
@@ -1154,6 +1155,7 @@
 		}
 
 		header.major,
+		.header.major,
 		footer.major {
 			background: _palette(bg);
 		}

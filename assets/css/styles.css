@@ -6114,7 +6114,8 @@ input[type="button"],
     color: #ffffff; }
   #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
     color: #ffffff; }
-  #footer header p {
+  #footer header p,
+  #footer .header p {
     color: rgba(255, 255, 255, 0.5); }
   #footer input[type="submit"],
   #footer input[type="reset"],
@@ -6173,6 +6174,7 @@ input[type="button"],
     width: 1px;
     z-index: -1; }
   #main header.major,
+  #main .header.major,
   #main footer.major {
     background: #ffffff; }
 
