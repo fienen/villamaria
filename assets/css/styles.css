@@ -5489,15 +5489,18 @@ blockquote {
 section.special, article.special {
   text-align: center; }
 
-header {
+header
+.header {
   text-align: center; }
-  header p {
+  header
+.header p {
     position: relative;
     top: -1em;
     color: #888888;
     text-transform: uppercase;
     letter-spacing: 0.075em; }
-  header.major {
+  header
+.header.major {
     border-bottom-width: 1px;
     border-color: rgba(224, 224, 224, 0.75);
     border-style: solid;
@@ -5505,7 +5508,9 @@ header {
     margin-bottom: 6em;
     padding: 4em 0;
     position: relative; }
-    header.major:before, header.major:after {
+    header
+.header.major:before, header
+.header.major:after {
       background: rgba(224, 224, 224, 0.75);
       content: '';
       display: block;
@@ -5513,13 +5518,17 @@ header {
       left: 0;
       position: absolute;
       width: 100%; }
-    header.major:before {
+    header
+.header.major:before {
       top: 10px; }
-    header.major:after {
+    header
+.header.major:after {
       bottom: 10px; }
-    header.major h2 {
+    header
+.header.major h2 {
       margin: 0; }
-    header.major p {
+    header
+.header.major p {
       top: 0;
       margin: 1.5em 0 0 0;
       padding: 1.5em 1.5em 0 1.5em;
@@ -5527,13 +5536,16 @@ header {
       line-height: 1.75em;
       border-top: solid 1px rgba(224, 224, 224, 0.75);
       display: inline-block; }
-    header.major.last {
+    header
+.header.major.last {
       border-bottom: 0;
       margin-bottom: 0;
       padding-bottom: 0; }
-      header.major.last:after {
+      header
+.header.major.last:after {
         display: none; }
-      header.major.last h2 {
+      header
+.header.major.last h2 {
         margin-bottom: 1em; }
 
 footer {
@@ -6174,7 +6186,8 @@ input[type="button"],
   h3 {
     font-size: 1.25em; }
   /* Section/Article */
-  header.major p {
+  header.major p,
+  .header.major p {
     font-size: 1.25em; }
   /* Header */
   #header {
@@ -6195,10 +6208,12 @@ input[type="button"],
   h3 {
     font-size: 1.15em; }
   /* Section/Article */
-  header.major {
+  header
+.header.major {
     margin-bottom: 4em;
     padding: 3em 0; }
-    header.major p {
+    header
+.header.major p {
       font-size: 1.15em; }
   footer.major {
     margin-top: 4em;
@@ -6247,7 +6262,8 @@ input[type="button"],
 /* Narrower */
 @media screen and (max-width: 840px) {
   /* Section/Article */
-  header.major {
+  header.major,
+  .header.major {
     padding-left: 2em;
     padding-right: 2em; }
   footer.major {
@@ -6262,13 +6278,17 @@ input[type="button"],
   h3 {
     font-size: 1em; }
   /* Section/Article */
-  header p {
+  header
+.header p {
     font-size: 0.8em; }
-  header.major {
+  header
+.header.major {
     margin-bottom: 2em; }
-    header.major br {
+    header
+.header.major br {
       display: none; }
-    header.major p {
+    header
+.header.major p {
       font-size: 0.8em; }
   footer.major {
     margin-top: 2em; }
@@ -6329,7 +6349,8 @@ input[type="button"],
 /* Mobile (Portrait) */
 @media screen and (max-width: 480px) {
   /* Section/Article */
-  header.major {
+  header
+.header.major {
     padding-left: 1em;
     padding-right: 1em; }
   footer.major {
